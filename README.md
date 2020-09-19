@@ -1,3 +1,13 @@
+# My description of the challenge
+
+This project is a real challenge for me, in it I can show my talent as a front-end developer and show what I have learned. I'am happy for my!
+
+For the development of this project I used very little what is CSS but I put my knowledge in javascript.
+
+The project works, consuming a geolocation API ipify where I have to check the domain, email or IP and show the data.
+
+After obtaining the data I had to consume a second API Leaflet to be able to find the location on the map and to be able to show the map with the location obtained from the geolocation API.
+
 # Frontend Mentor - IP Address Tracker
 
 ![Design preview for the IP Address Tracker coding challenge](./design/desktop-preview.jpg)
@@ -42,7 +52,7 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 
 ## Where to find everything
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design to work to. 
+Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design to work to.
 
 The designs are in JPG static format. This will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. This should help train your eye to perceive differences in spacings and sizes.
 
