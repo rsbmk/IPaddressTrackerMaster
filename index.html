@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONT AWSOME -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <!-- FAV ICON -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- CSS STYLE -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- GOOGLE FONT -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--1 step - LINK CSS FOR THE MAP API LeafletJs -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
+
+    <title>Frontend Mentor | IP Address Tracker</title>
+  </head>
+  <body>
+    <div class="wrap-for-background">
+      <h1>IP Address Tracker</h1>
+
+      <nav class="container-flex">
+        <div class="wrap-input">
+          <input
+            id="input"
+            type="text"
+            placeholder="Search for any IP address or domain"
+          />
+          <label id="btn"><i class="fas fa-chevron-right"></i></label>
+        </div>
+      </nav>
+
+      <main class="wrap-info">
+        <div>
+          <h2 class="tittleInfo">IP ADDRESS</h2>
+          <p id="ipAddress" class="pInfo"></p>
+        </div>
+
+        <div>
+          <h2 class="tittleInfo">LOCATION</h2>
+          <p id="locationHTML" class="pInfo"></p>
+        </div>
+
+        <div>
+          <h2 class="tittleInfo">TIMEZONE</h2>
+          <p id="timezone" class="pInfo"></p>
+        </div>
+
+        <div>
+          <h2 class="tittleInfo">ISP</h2>
+          <p id="ispHTML" class="pInfo"></p>
+        </div>
+      </main>
+    </div>
+
+    <div id="mapId"></div>
+
+    <!-- 2 step - LINK JS FOR THE MAO API LeafletJs -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
